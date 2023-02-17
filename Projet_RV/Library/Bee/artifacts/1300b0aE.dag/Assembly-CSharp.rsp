@@ -328,6 +328,7 @@
 -r:"C:/Users/marti/Documents/Pro/VRIG/Projet_RV/Projet_RV/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/AssistantCoreSDKEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/AssistantCoreSDKRuntime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/ControllerSample.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Facebook.Wit.Dictation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Facebook.Wit.Dictation.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Meta.VoiceSDK.Mic.Common.ref.dll"
@@ -543,6 +544,11 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
+"Assets/Samples/OpenXR Plugin/1.5.3/Intercept Feature/InterceptCreateSessionFeature.cs"
+"Assets/Samples/OpenXR Plugin/1.5.3/Intercept Feature/InterceptMessageHandler.cs"
+"Assets/Samples/OpenXR Plugin/1.5.3/Meshing Subsystem Feature/FallingSphere.cs"
+"Assets/Samples/OpenXR Plugin/1.5.3/Meshing Subsystem Feature/MeshingBehaviour.cs"
+"Assets/Samples/OpenXR Plugin/1.5.3/Meshing Subsystem Feature/MeshingTeapotFeature.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 

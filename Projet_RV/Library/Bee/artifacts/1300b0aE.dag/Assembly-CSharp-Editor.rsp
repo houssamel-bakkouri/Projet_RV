@@ -344,6 +344,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/AssistantCoreSDKEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/AssistantCoreSDKRuntime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/ControllerSample.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Facebook.Wit.Dictation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Facebook.Wit.Dictation.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Meta.VoiceSDK.Mic.Common.ref.dll"
@@ -438,6 +439,7 @@
 "Assets/Oculus/SampleFramework/Editor/BuildSamples.cs"
 "Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs"
 "Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Editor/OVROverlayCanvasEditor.cs"
+"Assets/Samples/OpenXR Plugin/1.5.3/Intercept Feature/Editor/InterceptCreateSessionFeatureEditor.cs"
 -langversion:9.0
 
 /deterministic
