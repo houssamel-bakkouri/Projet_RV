@@ -549,6 +549,10 @@
 "Assets/Samples/OpenXR Plugin/1.5.3/Meshing Subsystem Feature/FallingSphere.cs"
 "Assets/Samples/OpenXR Plugin/1.5.3/Meshing Subsystem Feature/MeshingBehaviour.cs"
 "Assets/Samples/OpenXR Plugin/1.5.3/Meshing Subsystem Feature/MeshingTeapotFeature.cs"
+"Assets/Scripts/Cube.cs"
+"Assets/Scripts/MasterController.cs"
+"Assets/Scripts/Test.cs"
+"Assets/Scripts/Trash.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 

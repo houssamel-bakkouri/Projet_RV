@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+12-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+13    <uses-feature
+13-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-63
+15        android:required="false" />
+15-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-65
+17-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-77
+18-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-74
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-69
+19-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-66
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-78
+20-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-75
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-66
+21-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:20-63
+22
+23    <uses-feature
+23-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-87
+24        android:name="android.hardware.microphone"
+24-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-59
+25        android:required="false" />
+25-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:60-84
+26    <uses-feature
+26-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+27        android:name="android.hardware.touchscreen"
+27-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+28        android:required="false" />
+28-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+29    <uses-feature
+29-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+31        android:required="false" />
+31-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+32    <uses-feature
+32-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+34        android:required="false" />
+34-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+35    <uses-feature
+35-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-111
+36        android:name="android.hardware.vr.headtracking"
+36-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-64
+37        android:required="true"
+37-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:65-88
+38        android:version="1" />
+38-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:89-108
+39
+40    <application
+40-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+41        android:allowBackup="false"
+41-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:114-141
+42        android:extractNativeLibs="true"
+42-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+43        android:icon="@mipmap/app_icon"
+43-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+44        android:label="@string/app_name"
+44-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+45        android:networkSecurityConfig="@xml/network_sec_config" >
+45-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+46        <activity
+46-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+47            android:name="com.unity3d.player.UnityPlayerActivity"
+47-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+48-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
+49            android:hardwareAccelerated="false"
+49-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
+50            android:launchMode="singleTask"
+50-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
+51            android:resizeableActivity="false"
+51-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+52            android:screenOrientation="landscape"
+52-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
+53            android:theme="@style/UnityThemeSelector" >
+53-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+54            <intent-filter>
+54-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+55-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+57-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+58                <category android:name="com.oculus.intent.category.VR" />
+58-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+58-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+59            </intent-filter>
+60
+61            <meta-data
+61-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+62                android:name="unityplayer.UnityActivity"
+62-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+63                android:value="true" />
+63-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+64            <meta-data
+64-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+65                android:name="android.notch_support"
+65-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+66                android:value="true" />
+66-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+67            <meta-data
+67-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+68                android:name="com.oculus.vr.focusaware"
+68-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+69                android:value="true" />
+69-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+70        </activity>
+71
+72        <meta-data
+72-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+73            android:name="unity.splash-mode"
+73-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+74            android:value="0" />
+74-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+75        <meta-data
+75-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+76            android:name="unity.splash-enable"
+76-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+77            android:value="True" />
+77-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+78        <meta-data
+78-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+79            android:name="unity.launch-fullscreen"
+79-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+80            android:value="True" />
+80-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+81        <meta-data
+81-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+82            android:name="unity.allow-resizable-window"
+82-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+83            android:value="False" />
+83-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+84        <meta-data
+84-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+85            android:name="notch.config"
+85-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+86            android:value="portrait|landscape" />
+86-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+87        <meta-data
+87-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-90
+88            android:name="com.oculus.supportedDevices"
+88-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-58
+89            android:value="quest|quest2" />
+89-->C:\Users\marti\Documents\Pro\VRIG\Projet_RV\Projet_RV\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:59-87
+90    </application>
+91
+92</manifest>
