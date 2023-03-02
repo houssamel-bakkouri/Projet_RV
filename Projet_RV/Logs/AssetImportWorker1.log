@@ -3607,3 +3607,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2153.111348 seconds.
+  path: Assets/Materials/Void.mat
+  artifactKey: Guid(fd84db8e4e873ef4fb14ce732bc90295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Void.mat using Guid(fd84db8e4e873ef4fb14ce732bc90295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4e000c2c4fbef64d0d14e13a59c817') in 0.335701 seconds 
