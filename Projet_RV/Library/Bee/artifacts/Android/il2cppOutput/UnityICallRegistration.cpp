@@ -6038,10 +6038,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Vector3_OrthoNormalize2();
 		Register_UnityEngine_Vector3_OrthoNormalize2();
 
-		//System.Void UnityEngine.Vector3::Slerp_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,UnityEngine.Vector3&)
-		void Register_UnityEngine_Vector3_Slerp_Injected();
-		Register_UnityEngine_Vector3_Slerp_Injected();
-
 	//End Registrations for type : UnityEngine.Vector3
 
 	//Start Registrations for type : UnityEngine.Video.VideoPlayer
@@ -6130,10 +6126,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_XR_InputTracking_GetNodeStates_Internal();
 		Register_UnityEngine_XR_InputTracking_GetNodeStates_Internal();
 
-		//System.Void UnityEngine.XR.InputTracking::Recenter()
-		void Register_UnityEngine_XR_InputTracking_Recenter();
-		Register_UnityEngine_XR_InputTracking_Recenter();
-
 	//End Registrations for type : UnityEngine.XR.InputTracking
 
 	//Start Registrations for type : UnityEngine.XR.Provider.XRStats
@@ -6145,10 +6137,6 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.XR.Provider.XRStats
 
 	//Start Registrations for type : UnityEngine.XR.XRDevice
-
-		//System.Boolean UnityEngine.XR.XRDevice::SetTrackingSpaceType(UnityEngine.XR.TrackingSpaceType)
-		void Register_UnityEngine_XR_XRDevice_SetTrackingSpaceType();
-		Register_UnityEngine_XR_XRDevice_SetTrackingSpaceType();
 
 		//System.Void UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking(UnityEngine.Camera,System.Boolean)
 		void Register_UnityEngine_XR_XRDevice_DisableAutoXRCameraTracking();

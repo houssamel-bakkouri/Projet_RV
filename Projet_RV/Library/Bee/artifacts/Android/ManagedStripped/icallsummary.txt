@@ -1354,7 +1354,6 @@ UnityEngine.UISystemProfilerApi::BeginSample
 UnityEngine.UISystemProfilerApi::EndSample
 UnityEngine.UnityLogWriter::WriteStringToUnityLogImpl
 UnityEngine.Vector3::OrthoNormalize2
-UnityEngine.Vector3::Slerp_Injected
 UnityEngine.Video.VideoPlayer::get_isPlaying
 UnityEngine.Video.VideoPlayer::get_length
 UnityEngine.Video.VideoPlayer::get_time
@@ -1374,9 +1373,7 @@ UnityEngine.XR.InputDevices::GetDevices_Internal
 UnityEngine.XR.InputDevices::GetDeviceCharacteristics
 UnityEngine.XR.InputTracking::GetDeviceIdAtXRNode
 UnityEngine.XR.InputTracking::GetNodeStates_Internal
-UnityEngine.XR.InputTracking::Recenter
 UnityEngine.XR.Provider.XRStats::TryGetStat_Internal
-UnityEngine.XR.XRDevice::SetTrackingSpaceType
 UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking
 UnityEngine.XR.XRDisplaySubsystem::TryGetAppGPUTimeLastFrame
 UnityEngine.XR.XRDisplaySubsystem::TryGetCompositorGPUTimeLastFrame
