@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
-
+    public int trashNumber;
     public Transform controller;
     public bool pickedUp = false;
 
