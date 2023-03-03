@@ -7,11 +7,11 @@ public class Game : MonoBehaviour
 {
     public GameObject ScoreGO;
     public int Score = 0;
-    private TextMeshProUGUI tmProScore;
+    private TextMeshPro tmProScore;
     // Start is called before the first frame update
     void Start()
     {
-        tmProScore = ScoreGO.GetComponent<TextMeshProUGUI>();
+        tmProScore = ScoreGO.GetComponent<TextMeshPro>();
     }
 
     // Update is called once per frame
