@@ -42,7 +42,8 @@ public class MasterController : MonoBehaviour
                     Rigidbody rb = cube.GetComponent<Rigidbody>();
                     rb.isKinematic = false;
                     rb.useGravity = true;
-                    Vector3 rawVelocity = GetComponent<Rigidbody>().velocity;
+                    Vector3 rawVelocity = OVRInput.GetLocalControllerVelocity(controller);
+                    Debug.Log(rawVelocity);
                     Vector3 velocity = new Vector3(rawVelocity.z, rawVelocity.y, -rawVelocity.x);
                     rb.velocity = velocity;
 
