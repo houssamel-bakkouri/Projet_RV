@@ -8,9 +8,13 @@ public class Cube : MonoBehaviour
     public Transform controller;
     public bool pickedUp = false;
 
+    public AudioClip popAudio;
+    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -21,6 +25,12 @@ public class Cube : MonoBehaviour
                 transform.position = controller.position;
                 transform.rotation = controller.rotation;
             }
+    }
+
+    public void PlayAudio()
+    {
+        if(popAudio)
+            audioSource.Play();
     }
 
 }
