@@ -7,6 +7,8 @@ public class Trash : MonoBehaviour
     public GameObject GameO;
     public int trashNumber;
     public Game Game;
+
+    [SerializeField] private AudioSource errorAudioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,7 @@ public class Trash : MonoBehaviour
             else
             {
                 Game.AddScore(-1);
+                errorAudioSource.Play();
             }
             Destroy(cube.gameObject);
         }
