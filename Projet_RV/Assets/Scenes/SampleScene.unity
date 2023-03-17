@@ -747,11 +747,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1321924427, guid: 1a6b466611720924ca1dc04a24b7c2e7, type: 3}
       propertyPath: controller
-      value: 66
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1877411066, guid: 1a6b466611720924ca1dc04a24b7c2e7, type: 3}
       propertyPath: controller
-      value: 33
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5985346880290739141, guid: 1a6b466611720924ca1dc04a24b7c2e7,
         type: 3}
