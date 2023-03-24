@@ -140,12 +140,27 @@ PrefabInstance:
     - target: {fileID: 5044347017311544125, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
         type: 3}
       propertyPath: m_Name
-      value: Red Cube
+      value: Can_Red
       objectReference: {fileID: 0}
     - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
         type: 3}
@@ -197,8 +212,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5044347017311544127, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5044347017311544127, guid: f639ef125f438ce4bb6dc5d0a1600bb1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f639ef125f438ce4bb6dc5d0a1600bb1, type: 3}
+--- !u!1 &4020427939991442064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5044347017311544125, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+    type: 3}
+  m_PrefabInstance: {fileID: 8199492566196498861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &479233461028031716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020427939991442064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3327397293584083610, guid: d9dd224145d8cd647be5d3f7973d111a, type: 3}
 --- !u!4 &4020427939991442067 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,

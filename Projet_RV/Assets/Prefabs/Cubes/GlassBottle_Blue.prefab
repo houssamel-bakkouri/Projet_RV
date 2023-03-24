@@ -108,12 +108,27 @@ PrefabInstance:
     - target: {fileID: 5044347017311544125, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
         type: 3}
       propertyPath: m_Name
-      value: Blue Cube
+      value: GlassBottle_Blue
       objectReference: {fileID: 0}
     - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5044347017311544126, guid: f639ef125f438ce4bb6dc5d0a1600bb1,
         type: 3}

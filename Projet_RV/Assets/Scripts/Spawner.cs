@@ -6,10 +6,11 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] trash;
     [SerializeField] private float spawnRate;
+    [SerializeField] private float offSet;
     private float _timeToSpawn;
     void Start()
     {
-        _timeToSpawn = spawnRate;
+        _timeToSpawn = spawnRate + offSet;
     }
 
     void Update()

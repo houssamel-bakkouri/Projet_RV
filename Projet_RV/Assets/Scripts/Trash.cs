@@ -25,16 +25,20 @@ public class Trash : MonoBehaviour
     {
         if(other.TryGetComponent<Cube>(out var cube))
         {
-            if (cube.trashNumber == trashNumber)
+            Debug.Log("In Trash");
+            if (!cube.pickedUp)
             {
-                Game.AddScore(1);
+                if (cube.trashNumber == trashNumber)
+                {
+                    Game.AddScore(1);
+                }
+                else
+                {
+                    Game.AddScore(-1);
+                    //errorAudioSource.Play();
+                }
+                Destroy(cube.gameObject);
             }
-            else
-            {
-                Game.AddScore(-1);
-                errorAudioSource.Play();
-            }
-            Destroy(cube.gameObject);
         }
     }
 }

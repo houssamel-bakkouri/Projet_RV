@@ -77,6 +77,7 @@ public class MasterController : MonoBehaviour
         if (other.TryGetComponent<Cube>(out var cube) && inHandCube.Count > 0)
         {
             inHandCube.Remove(cube);
+            cube.pickedUp = false;
         }
     }
 }
