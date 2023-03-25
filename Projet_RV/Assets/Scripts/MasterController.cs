@@ -32,6 +32,7 @@ public class MasterController : MonoBehaviour
                 Debug.Log("Cube 3");
                 if (cube.GetComponent<Rigidbody>())
                 {
+                    cube.PlayAudio();
                     Rigidbody rb = cube.GetComponent<Rigidbody>();
                     rb.isKinematic = true;
                     rb.useGravity = false;
@@ -67,7 +68,7 @@ public class MasterController : MonoBehaviour
             inHandCube.Add(cube);
             Debug.Log("Add cube");
             cube.pickedUp = true;
-            cube.PlayAudio();
+            //cube.PlayAudio();
             Debug.Log("End");
         }
     }
