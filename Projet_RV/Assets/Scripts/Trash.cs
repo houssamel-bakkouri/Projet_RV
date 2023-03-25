@@ -35,6 +35,7 @@ public class Trash : MonoBehaviour
                 else
                 {
                     Game.AddScore(-1);
+                    errorAudioSource.time = 1;
                     errorAudioSource.Play();
                 }
                 Destroy(cube.gameObject);

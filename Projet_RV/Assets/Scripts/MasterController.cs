@@ -25,6 +25,7 @@ public class MasterController : MonoBehaviour
             isHolding = true;
             foreach (var cube in inHandCube)
             {   
+                cube.PlayAudio();
                 Debug.Log("Cube 1");
                 cube.controller = transform;
                 Debug.Log("Cube 2");
@@ -68,7 +69,6 @@ public class MasterController : MonoBehaviour
             inHandCube.Add(cube);
             Debug.Log("Add cube");
             cube.pickedUp = true;
-            //cube.PlayAudio();
             Debug.Log("End");
         }
     }
