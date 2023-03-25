@@ -29,7 +29,10 @@ public class Cube : MonoBehaviour
     public void PlayAudio()
     {
         if(audioSource)
+        {
+            audioSource.time = 0.35f;
             audioSource.Play();
+        }
     }
 
 }
