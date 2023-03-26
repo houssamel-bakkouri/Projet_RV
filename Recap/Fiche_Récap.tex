@@ -1,0 +1,153 @@
+%====================== PACKAGES ======================
+
+\documentclass[a4paper,french,12pt]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{abstract}
+\usepackage[T1]{fontenc}
+\usepackage[top=2cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}\pagestyle{plain}
+\usepackage{subfig}
+\usepackage[bottom]{footmisc}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{perpage}
+\usepackage{listings}
+\usepackage{underscore}
+
+\usepackage{xcolor}
+\newcommand{\remal}[1]{\textcolor{magenta}{#1}}
+
+%====================== REGLES ======================
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\renewcommand{\contentsname}{Sommaire}
+\renewcommand{\arraystretch}{1.5}
+\titleformat*{\section}{\huge\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\bfseries}
+\setlength {\marginparwidth }{2cm}
+
+%====================== Corps ======================
+
+\begin{document}
+\begin{center}
+\thispagestyle{empty} 
+
+\includegraphics[height=6cm]{logo_ensiie.png}~\\[1.2cm]
+
+{\large École nationale supérieure d'informatique pour l'industrie et l'entreprise\\[1.0cm]}
+
+\HRule \\[0.5cm]
+
+{\huge \bfseries Fiche Récapitulative de Projet de Réalité Virtuelle  \\[0.6cm]}
+{\Large \bfseries « Trieur de Déchets »\\[0.5cm] }
+
+\HRule \\[1.0cm]
+
+{\large
+\emph{Élèves} : \textbf{EL-BAKKOURI Houssam, FOND Martin, RICCO Matteo}\\
+~
+~
+\emph{Enseignant} : \textbf{BOUYER Guillaume}\\
+}%end large
+
+~
+
+\vfill
+
+
+\vspace*{1.0cm}{Projet de Réalité Virtuelle 2022-2023}
+
+\end{center}
+
+
+\newpage
+\thispagestyle{empty} 
+\tableofcontents
+\newpage
+
+\section{Résumé et Auteurs}
+
+Pour ce projet nous avons décidé de faire un trieur de déchets en réalité virtuelle.
+Le joueur est devant un tapis sur lequel défilent des déchets et son but est de les mettre dans les poubelles correspondantes. Le score est compté en fonction de si les déchets sont placés sans la bonne poubelle ou non. 
+
+\subsection{Gameplay}
+le joueur peut ramasser les objets avec les manettes en appuyant sur les gâchettes de paume ou d'index, et peut lancer ou lâcher les déchets en relâchant celles ci.
+Les bouteilles en verre vont dans la poubelle bleue, les bouteilles en plastique dans le verte, les pizzas dans la jaune et les canettes dans la rouge.
+
+\subsection{Auteurs}
+\begin{itemize}
+\item EL-BAKKOURI Houssam, dev du tapis et de l'UI
+\item FOND Martin, dev des objets, des poubelles et du système de score
+\item RICCO Matteo, dev du système de ramassage et de jeté d'objets et secrétaire
+\end{itemize}
+
+\section{Spécificités Techniques}
+
+Version d'Unity: 2021.3.16f1
+~
+Version du SDK VR: 49
+~
+
+\subsection{Assets Extérieurs utilisés}
+
+Voici l'ensemble des assets extérieures que nous avons utilisé:
+\begin{itemize}
+\item \href{http://https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022}{Package d'intégration Oculus} 
+
+\item \href{https://www.cgtrader.com/free-3d-models/exterior/street-exterior/trashes}{Assets de déchets 3D}
+
+
+\item \href{https://www.youtube.com/watch?v=7cPTWhj3tng}{Son "pop"}
+
+\item \href{https://www.youtube.com/watch?v=2naim9F4010}{Son de Buzzer}
+
+\end{itemize}
+
+\subsection{Assets Spécifiques Réalisées}
+
+Les assets réalisées par notre groupe sont:
+\begin{itemize}
+\item L'UI
+\item Le système de score
+\item Le système permettant d'attraper et de lancer les déchets
+\item les poubelles
+\item le tapis permettant de déplacer les déchets
+\item le système d'apparition des déchets
+
+\subsection{Élements d'UX notables}
+
+Nous avons ajouté un petit "pop" lorsque le joueur ramasse un objet et un son de buzzer quand il le met dans la mauvaise poubelle
+
+\section{Développement}
+
+Nous estimons le temps de développement à environs 60h.
+
+Nous n'avons pas rencontré de problèmes majeurs de développement si ce n'est la familiarisation avec les fonctions spécifiques du packages VR, qui peuvent parfois retourner des résultats étonnants à cause de paramètres qui n'ont à priori rien à voir.
+
+\section{Liens}
+\begin{itemize}
+\item \href{https://github.com/MartinFond/Projet_RV}{Lien du Git}
+
+\item \href{https://drive.google.com/file/d/14MIBjIZLIeK-ba-3iSjfn7IGKH1ggph4/view}{Lien de la vidéo}
+
+\item \href{https://drive.google.com/file/d/1eOpNpBAcrODsFzoDIm0bHvClpjSXFn5u/view?usp=sharing}{Lien du build}
+\end{itemize}
+
+\end{itemize}
+
+\end{document}
+
