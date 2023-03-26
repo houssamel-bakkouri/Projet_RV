@@ -33,6 +33,7 @@ public class MasterController : MonoBehaviour
                 Debug.Log("Cube 3");
                 if (cube.GetComponent<Rigidbody>())
                 {
+                    cube.PlayAudio();
                     Rigidbody rb = cube.GetComponent<Rigidbody>();
                     rb.isKinematic = true;
                     rb.useGravity = false;
